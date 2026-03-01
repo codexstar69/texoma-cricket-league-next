@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-tcl-navy: #0033A0; /* Royal Blue */
-  --color-tcl-navy-light: #1A4EB8;
-  --color-tcl-navy-dark: #002266;
+  --color-tcl-navy: #0B2C4D;
+  --color-tcl-navy-light: #123A63;
+  --color-tcl-navy-dark: #091E33;
   --color-tcl-crimson: #DA291C; /* Classic Red */
   --color-tcl-crimson-dark: #B01E23;
   --color-tcl-crimson-bright: #ED3C30;
@@ -39,10 +39,10 @@
 
 /* Utility classes for background images that Tailwind v4 @theme doesn't cover */
 @utility bg-hero-gradient {
-  background-image: linear-gradient(180deg, #002266 0%, #0033A0 40%, rgba(26,78,184,0.9) 100%);
+  background-image: linear-gradient(180deg, #091E33 0%, #0B2C4D 40%, rgba(18,58,99,0.9) 100%);
 }
 @utility bg-radial-navy {
-  background-image: radial-gradient(ellipse at center, #1A4EB8 0%, #0033A0 70%);
+  background-image: radial-gradient(ellipse at center, #123A63 0%, #0B2C4D 70%);
 }
 @utility bg-stripe-pattern {
   background-image: repeating-linear-gradient(45deg, rgba(255,255,255,0.03) 0px, rgba(255,255,255,0.03) 1px, transparent 1px, transparent 40px);
@@ -58,10 +58,10 @@ html {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #002266;
+  background: #091E33;
 }
 ::-webkit-scrollbar-thumb {
-  background: #1A4EB8;
+  background: #123A63;
   border-radius: 5px;
 }
 ::-webkit-scrollbar-thumb:hover {

@@ -10,7 +10,7 @@ const SITE_NAME = "Cricket Texoma";
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#0033A0",
+  themeColor: "#0B2C4D",
 };
 
 export const metadata: Metadata = {
