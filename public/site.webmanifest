@@ -1,0 +1,26 @@
+{
+  "name": "Texoma Cricket League",
+  "short_name": "TCL",
+  "description": "Premier youth cricket platform in Texas & Oklahoma",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8F6F2",
+  "theme_color": "#0B2C4D",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/tcl-logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/tcl-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
