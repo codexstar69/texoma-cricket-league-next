@@ -117,7 +117,7 @@ const organizationJsonLd = {
   "@type": "SportsOrganization",
   name: SITE_NAME,
   url: SITE_URL,
-  logo: `${SITE_URL}/tcl-logo.png`,
+  logo: `${SITE_URL}/cricket-texoma-logo-2026.png`,
   description:
     "Cricket Texoma is the premier cricket organization in the Texoma region, offering professional pathways and world-class experiences for young athletes.",
   foundingDate: "2024",

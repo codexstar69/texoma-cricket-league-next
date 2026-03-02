@@ -102,7 +102,7 @@ const Navbar = () => {
             >
               <div className="relative">
                 <img
-                  src="/texoma-league-log.png"
+                  src="/cricket-texoma-logo-2026.png"
                   alt="Cricket Texoma logo"
                   className={`w-auto object-contain transition-all duration-500 ${isScrolled ? 'h-16 md:h-20' : 'h-24 md:h-32'
                     }`}
@@ -188,7 +188,7 @@ const Navbar = () => {
           >
             {/* Header in Overlay */}
             <div className="flex justify-between items-center p-6 border-b border-white/5">
-              <img src="/texoma-league-log.png" alt="Cricket Texoma" className="h-14" width={56} height={56} />
+              <img src="/cricket-texoma-logo-2026.png" alt="Cricket Texoma" className="h-14" width={56} height={56} />
               <button
                 onClick={() => setIsMobileOpen(false)}
                 className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-tcl-crimson transition-all"

@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="flex flex-col items-start">
             <Link href="/" className="mb-6" aria-label="Cricket Texoma - Home">
               <img
-                src="/texoma-league-log.png"
+                src="/cricket-texoma-logo-2026.png"
                 alt="Cricket Texoma logo"
                 className="h-28 w-auto object-contain opacity-90 hover:opacity-100 transition-opacity"
                 width={112}
