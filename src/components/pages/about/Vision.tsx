@@ -53,7 +53,7 @@ const Vision = () => {
               <span className="drop-cap">W</span>e envision a future where cricket in the United States is <span className="font-semibold text-tcl-navy">organized, accessible, and respected</span> at every level—from first exposure at the grassroots to elite competition on the national stage.
             </p>
             <p className="mb-6">
-              At Texoma Cricket League, our vision is to help build a strong, sustainable cricket ecosystem by providing structured competition, professional environments, and clear pathways for player development. We believe the long-term success of American cricket depends on <span className="font-semibold text-tcl-navy">consistent standards, centralized championship venues</span>, and community-driven participation, rather than fragmented, short-term events.
+              At Cricket Texoma, our vision is to help build a strong, sustainable cricket ecosystem by providing structured competition, professional environments, and clear pathways for player development. We believe the long-term success of American cricket depends on <span className="font-semibold text-tcl-navy">consistent standards, centralized championship venues</span>, and community-driven participation, rather than fragmented, short-term events.
             </p>
             <p className="mb-6">
               Our focus begins at the grassroots, where <span className="font-semibold text-tcl-navy">passion for the game is formed</span> and fundamentals are built. From there, we aim to support the natural progression of players, teams, and officials through well-defined competitive tiers that encourage growth, accountability, and excellence.
@@ -131,7 +131,7 @@ const Vision = () => {
             viewport={{ once: true }}
             className="font-source-sans text-[17px] font-medium text-[#444] max-w-2xl"
           >
-            Through disciplined growth, collaboration, and a commitment to standards, Texoma Cricket League aims to play a defining role in shaping the future of American cricket.
+            Through disciplined growth, collaboration, and a commitment to standards, Cricket Texoma aims to play a defining role in shaping the future of American cricket.
           </motion.p>
         </div>
       </div>

@@ -24,7 +24,7 @@ const Values = () => {
             viewport={{ once: true }}
             className="font-barlow-condensed font-bold text-4xl md:text-5xl text-tcl-navy uppercase tracking-tight mb-4"
           >
-            What Drives Texoma Cricket
+            What Drives Cricket Texoma
           </motion.h2>
           <motion.p
             initial={{ opacity: 0 }}

@@ -73,7 +73,7 @@ const Programs = () => {
             </span>
           </div>
           <h2 className="font-barlow-condensed font-bold text-3xl md:text-5xl text-tcl-navy uppercase mb-4">
-            Texoma Cricket – Premier Tournament Portfolio
+            Cricket Texoma – Premier Tournament Portfolio
           </h2>
         </motion.div>
 

@@ -33,7 +33,7 @@ const Hero = () => {
             className="flex items-center gap-3 mb-4 md:mb-5"
           >
             <div className="w-8 md:w-10 h-[3px] bg-tcl-gold rounded-full"></div>
-            <span className="font-barlow-condensed font-medium text-[12px] md:text-[13px] uppercase tracking-[0.12em] text-tcl-gold">About Texoma Cricket League</span>
+            <span className="font-barlow-condensed font-medium text-[12px] md:text-[13px] uppercase tracking-[0.12em] text-tcl-gold">About Cricket Texoma</span>
           </motion.div>
 
           {/* Headline */}
