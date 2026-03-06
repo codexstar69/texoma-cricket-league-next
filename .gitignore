@@ -48,3 +48,7 @@ next-env.d.ts
 .copilot/
 .agents/
 .agent/
+
+# docs
+*.docx
+CT Transp*.png
