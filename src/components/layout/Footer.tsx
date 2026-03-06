@@ -93,6 +93,10 @@ const Footer = () => {
             <Link href="/disclaimer" className="hover:text-white/80 transition-colors">Disclaimer</Link>
           </nav>
         </div>
+        <div className="pt-4 text-center text-[12px] text-white/30 font-source-sans">
+          Designed with <span className="text-tcl-crimson">♥</span> by{' '}
+          <a href="https://engazedigital.com" target="_blank" rel="noopener noreferrer" className="text-white/50 hover:text-white/80 transition-colors underline underline-offset-2">Engaze Digital</a>
+        </div>
       </div>
     </footer>
   );
