@@ -10,14 +10,14 @@ const Testimonial = () => {
     <section className="bg-tcl-green-surface py-24 md:py-32">
       <div className="max-w-4xl mx-auto px-6 text-center">
         <div className="relative inline-block">
-          <span className="absolute -top-16 -left-12 font-oswald font-bold text-[120px] md:text-[160px] text-tcl-gold opacity-20 pointer-events-none leading-none">"</span>
+          <span className="absolute -top-16 -left-12 font-oswald font-bold text-[120px] md:text-[160px] text-tcl-gold opacity-20 pointer-events-none leading-none">&quot;</span>
           <motion.blockquote
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="font-montserrat font-semibold italic text-xl md:text-2xl lg:text-3xl text-tcl-navy leading-relaxed relative z-10"
           >
-            TCL gave our academy something we couldn't build alone — a national stage. Our U-14 squad went from local friendlies to competing against the best teams in the country. The professionalism and consistency is unlike anything else in US cricket.
+            TCL gave our academy something we couldn&apos;t build alone &mdash; a national stage. Our U-14 squad went from local friendlies to competing against the best teams in the country. The professionalism and consistency is unlike anything else in US cricket.
           </motion.blockquote>
         </div>
 

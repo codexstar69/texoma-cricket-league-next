@@ -22,23 +22,23 @@ const Disclaimer = () => {
       tocItems={tocItems}
     >
       <h2 id="general" className="font-barlow-condensed font-semibold text-[22px] text-tcl-navy uppercase tracking-wide mt-10 mb-4 flex items-center gap-3">
-        <span className="w-6 h-[2px] bg-tcl-gold block"></span>
+        <span className="w-6 h-[2px] bg-tcl-crimson block"></span>
         1. General Disclaimer
       </h2>
       <p className="mb-4">
-        The information provided on the Cricket Texoma ("TCL") website and in our communications is for general informational purposes only. All information is provided in good faith; however, we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the site. Use of the site and reliance on any information is solely at your own risk.
+        The information provided on the Cricket Texoma (&ldquo;TCL&rdquo;) website and in our communications is for general informational purposes only. All information is provided in good faith; however, we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the site. Use of the site and reliance on any information is solely at your own risk.
       </p>
 
       <h2 id="professional" className="font-barlow-condensed font-semibold text-[22px] text-tcl-navy uppercase tracking-wide mt-10 mb-4 flex items-center gap-3">
-        <span className="w-6 h-[2px] bg-tcl-gold block"></span>
+        <span className="w-6 h-[2px] bg-tcl-crimson block"></span>
         2. No Professional Advice
       </h2>
       <p className="mb-4">
-        The content on this website does not constitute medical, legal, or other professional advice. Coaching tips, training guidelines, and safety information are general in nature. You should consult with appropriate professionals (such as a physician or certified trainer) for specific advice tailored to your or your child's situation.
+        The content on this website does not constitute medical, legal, or other professional advice. Coaching tips, training guidelines, and safety information are general in nature. You should consult with appropriate professionals (such as a physician or certified trainer) for specific advice tailored to your or your child&apos;s situation.
       </p>
 
       <h2 id="physical" className="font-barlow-condensed font-semibold text-[22px] text-tcl-navy uppercase tracking-wide mt-10 mb-4 flex items-center gap-3">
-        <span className="w-6 h-[2px] bg-tcl-gold block"></span>
+        <span className="w-6 h-[2px] bg-tcl-crimson block"></span>
         3. Physical Activity Disclaimer
       </h2>
       <p className="mb-4">
@@ -46,7 +46,7 @@ const Disclaimer = () => {
       </p>
 
       <h2 id="event" className="font-barlow-condensed font-semibold text-[22px] text-tcl-navy uppercase tracking-wide mt-10 mb-4 flex items-center gap-3">
-        <span className="w-6 h-[2px] bg-tcl-gold block"></span>
+        <span className="w-6 h-[2px] bg-tcl-crimson block"></span>
         4. Event & Schedule Disclaimer
       </h2>
       <p className="mb-4">
@@ -57,7 +57,7 @@ const Disclaimer = () => {
       </p>
 
       <h2 id="third-party" className="font-barlow-condensed font-semibold text-[22px] text-tcl-navy uppercase tracking-wide mt-10 mb-4 flex items-center gap-3">
-        <span className="w-6 h-[2px] bg-tcl-gold block"></span>
+        <span className="w-6 h-[2px] bg-tcl-crimson block"></span>
         5. Third-Party Content & Links
       </h2>
       <p className="mb-4">
@@ -65,7 +65,7 @@ const Disclaimer = () => {
       </p>
 
       <h2 id="results" className="font-barlow-condensed font-semibold text-[22px] text-tcl-navy uppercase tracking-wide mt-10 mb-4 flex items-center gap-3">
-        <span className="w-6 h-[2px] bg-tcl-gold block"></span>
+        <span className="w-6 h-[2px] bg-tcl-crimson block"></span>
         6. Results & Rankings
       </h2>
       <p className="mb-4">
@@ -73,7 +73,7 @@ const Disclaimer = () => {
       </p>
 
       <h2 id="liability" className="font-barlow-condensed font-semibold text-[22px] text-tcl-navy uppercase tracking-wide mt-10 mb-4 flex items-center gap-3">
-        <span className="w-6 h-[2px] bg-tcl-gold block"></span>
+        <span className="w-6 h-[2px] bg-tcl-crimson block"></span>
         7. Limitation of Liability
       </h2>
       <p className="mb-4">
@@ -81,15 +81,15 @@ const Disclaimer = () => {
       </p>
 
       <h2 id="indemnification" className="font-barlow-condensed font-semibold text-[22px] text-tcl-navy uppercase tracking-wide mt-10 mb-4 flex items-center gap-3">
-        <span className="w-6 h-[2px] bg-tcl-gold block"></span>
+        <span className="w-6 h-[2px] bg-tcl-crimson block"></span>
         8. Indemnification
       </h2>
       <p className="mb-4">
-        You agree to defend, indemnify, and hold harmless TCL and its officers, directors, employees, and agents from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees (including reasonable attorneys' fees) resulting from your violation of this Disclaimer or your use of the website and services.
+        You agree to defend, indemnify, and hold harmless TCL and its officers, directors, employees, and agents from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees (including reasonable attorneys&apos; fees) resulting from your violation of this Disclaimer or your use of the website and services.
       </p>
 
       <h2 id="changes" className="font-barlow-condensed font-semibold text-[22px] text-tcl-navy uppercase tracking-wide mt-10 mb-4 flex items-center gap-3">
-        <span className="w-6 h-[2px] bg-tcl-gold block"></span>
+        <span className="w-6 h-[2px] bg-tcl-crimson block"></span>
         9. Changes to This Disclaimer
       </h2>
       <p className="mb-4">
@@ -97,7 +97,7 @@ const Disclaimer = () => {
       </p>
 
       <h2 id="contact" className="font-barlow-condensed font-semibold text-[22px] text-tcl-navy uppercase tracking-wide mt-10 mb-4 flex items-center gap-3">
-        <span className="w-6 h-[2px] bg-tcl-gold block"></span>
+        <span className="w-6 h-[2px] bg-tcl-crimson block"></span>
         10. Contact Us
       </h2>
       <div className="bg-tcl-navy/5 p-5 rounded-lg border border-tcl-light-gray">

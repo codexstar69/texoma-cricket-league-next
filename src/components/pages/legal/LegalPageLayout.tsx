@@ -56,20 +56,20 @@ const LegalPageLayout = ({ title, effectiveDate, tocItems, children }: LegalPage
     <div className="bg-tcl-off-white min-h-screen font-source-sans text-tcl-navy">
 
       {/* SECTION 1: HEADER */}
-      <section className="bg-tcl-navy pt-44 pb-16 md:pt-52 md:pb-20 relative border-b border-tcl-gold">
+      <section className="bg-white pt-44 pb-16 md:pt-52 md:pb-20 relative border-b border-tcl-light-gray">
         <div className="max-w-4xl mx-auto px-4 text-center">
           {/* Breadcrumb */}
-          <nav aria-label="Breadcrumb" className="flex items-center justify-center gap-2 font-source-sans text-[13px] font-medium text-white/50 mb-6">
-            <Link href="/" className="hover:text-white transition-colors">Home</Link>
+          <nav aria-label="Breadcrumb" className="flex items-center justify-center gap-2 font-source-sans text-[13px] font-medium text-tcl-navy/50 mb-6">
+            <Link href="/" className="hover:text-tcl-navy transition-colors">Home</Link>
             <span aria-hidden="true">/</span>
-            <span className="text-white/80" aria-current="page">{title}</span>
+            <span className="text-tcl-navy/80" aria-current="page">{title}</span>
           </nav>
 
           <motion.h1
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="font-barlow-condensed font-bold text-[28px] md:text-[44px] text-white uppercase tracking-wide mb-4"
+            className="font-barlow-condensed font-bold text-[28px] md:text-[44px] text-tcl-navy uppercase tracking-wide mb-4"
           >
             {title}
           </motion.h1>
@@ -78,7 +78,7 @@ const LegalPageLayout = ({ title, effectiveDate, tocItems, children }: LegalPage
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2, duration: 0.5 }}
-            className="font-barlow font-medium text-[13px] text-tcl-gold"
+            className="font-barlow font-medium text-[13px] text-tcl-crimson"
           >
             {effectiveDate}
           </motion.div>
@@ -179,10 +179,10 @@ const LegalPageLayout = ({ title, effectiveDate, tocItems, children }: LegalPage
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.8 }}
             onClick={scrollToTop}
-            className="fixed bottom-8 right-8 z-50 w-12 h-12 bg-tcl-navy text-white rounded-full shadow-lg flex items-center justify-center hover:bg-tcl-gold hover:scale-105 transition-all duration-200 group"
+            className="fixed bottom-8 right-8 z-50 w-12 h-12 bg-tcl-navy text-white rounded-full shadow-lg flex items-center justify-center hover:bg-tcl-crimson hover:scale-105 transition-all duration-200 group"
             aria-label="Back to top"
           >
-            <ArrowUp weight="bold" size={20} className="group-hover:text-tcl-navy transition-colors" />
+            <ArrowUp weight="bold" size={20} className="group-hover:text-white transition-colors" />
           </motion.button>
         )}
       </AnimatePresence>

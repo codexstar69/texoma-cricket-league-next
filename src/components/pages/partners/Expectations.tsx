@@ -13,7 +13,7 @@ const Expectations = () => {
                className="bg-white rounded-2xl border border-tcl-gray-200 shadow-lg p-8 md:p-10 border-l-[4px] border-l-tcl-navy"
             >
                <div className="flex items-center gap-4 mb-6">
-                  <div className="w-[52px] h-[52px] rounded-lg bg-tcl-gold/10 flex items-center justify-center">
+                  <div className="w-[52px] h-[52px] rounded-lg bg-tcl-crimson/10 flex items-center justify-center">
                      <ShieldCheck className="w-7 h-7 text-tcl-navy stroke-[2.5px]" />
                   </div>
                   <h3 className="font-barlow-condensed font-semibold text-[20px] text-tcl-navy uppercase">What We Expect From Academy Partners</h3>

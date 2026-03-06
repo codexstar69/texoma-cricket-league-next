@@ -16,8 +16,8 @@ const CalendarHeader = () => {
                      viewport={{ once: true }}
                      className="flex items-center gap-3 mb-4"
                   >
-                     <div className="w-10 h-[3px] bg-tcl-gold"></div>
-                     <span className="font-barlow-condensed font-medium text-[13px] uppercase tracking-widest text-tcl-gold">Annual Calendar</span>
+                     <div className="w-10 h-[3px] bg-tcl-crimson"></div>
+                     <span className="font-barlow-condensed font-medium text-[13px] uppercase tracking-widest text-tcl-navy">Annual Calendar</span>
                   </motion.div>
 
                   <motion.h2
@@ -50,7 +50,7 @@ const CalendarHeader = () => {
                   className="w-full lg:w-auto bg-white/60 lg:bg-white rounded-lg lg:rounded-xl border border-tcl-gray-100 lg:border-tcl-gray-200 lg:shadow-lg p-3 md:p-6"
                >
                   <div className="flex items-center gap-2 mb-2 md:mb-4 pb-2 md:pb-3 border-b border-tcl-gray-100">
-                     <ShieldCheck className="w-4 h-4 text-tcl-gold flex-shrink-0" />
+                     <ShieldCheck className="w-4 h-4 text-tcl-crimson flex-shrink-0" />
                      <span className="font-barlow-condensed font-semibold text-xs md:text-sm text-tcl-navy uppercase tracking-wide">Academy Partner Access Included</span>
                   </div>
 
@@ -74,7 +74,7 @@ const CalendarHeader = () => {
                      <div className="w-[1px] h-3 bg-tcl-gray-200 hidden sm:block"></div>
 
                      <div className="flex items-center gap-1.5 md:gap-2">
-                        <Star className="w-3 h-3 text-tcl-gold fill-tcl-gold" />
+                        <Star className="w-3 h-3 text-tcl-crimson fill-tcl-crimson" />
                         <span className="font-source-sans text-[11px] md:text-[13px] font-medium text-[#555]">Founding Partner</span>
                      </div>
                   </div>

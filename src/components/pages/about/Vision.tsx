@@ -15,8 +15,8 @@ const Vision = () => {
             viewport={{ once: true }}
             className="flex items-center gap-3 mb-4"
           >
-            <div className="w-10 h-[3px] bg-tcl-gold"></div>
-            <span className="font-barlow-condensed font-medium text-[13px] uppercase tracking-widest text-tcl-gold">Our Vision</span>
+            <div className="w-10 h-[3px] bg-tcl-crimson"></div>
+            <span className="font-barlow-condensed font-medium text-[13px] uppercase tracking-widest text-tcl-navy">Our Vision</span>
           </motion.div>
 
           <motion.h2
@@ -33,9 +33,9 @@ const Vision = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="font-source-sans text-lg md:text-2xl font-normal italic text-tcl-navy leading-relaxed max-w-3xl border-l-4 border-tcl-gold pl-6 py-1"
+            className="font-source-sans text-lg md:text-2xl font-normal italic text-tcl-navy leading-relaxed max-w-3xl border-l-4 border-tcl-crimson pl-6 py-1"
           >
-            "To build a unified national pathway that connects grassroots participation to elite competition—bringing clarity, consistency, and aspiration to the cricket ecosystem."
+            &ldquo;To build a unified national pathway that connects grassroots participation to elite competition&mdash;bringing clarity, consistency, and aspiration to the cricket ecosystem.&rdquo;
           </motion.blockquote>
         </div>
 
@@ -80,8 +80,8 @@ const Vision = () => {
               <span className="block mt-2 font-barlow-condensed font-medium text-xs text-tcl-gray-500 uppercase tracking-widest text-center">Cricket Championship Match</span>
             </div>
 
-            <div className="bg-tcl-gold/5 rounded-xl p-6 border border-tcl-gold/10">
-              <Quote className="w-6 h-6 text-tcl-gold mb-3 fill-tcl-gold" />
+            <div className="bg-tcl-navy/5 rounded-xl p-6 border border-tcl-light-gray">
+              <Quote className="w-6 h-6 text-tcl-crimson mb-3 fill-tcl-crimson" />
               <p className="font-source-sans text-[15px] font-medium italic text-tcl-navy leading-relaxed">
                 The long-term success of American cricket depends on consistent standards and community-driven participation.
               </p>
@@ -116,8 +116,8 @@ const Vision = () => {
                 whileHover={{ y: -3 }}
                 className="bg-white rounded-xl p-6 border border-tcl-gray-200 shadow-sm hover:shadow-md transition-all duration-300 group"
               >
-                <div className="w-12 h-12 rounded-lg bg-tcl-navy/5 flex items-center justify-center mb-4 group-hover:bg-tcl-gold/10 transition-colors">
-                  <item.icon className="w-8 h-8 text-tcl-gold stroke-[2px]" />
+                <div className="w-12 h-12 rounded-lg bg-tcl-navy/5 flex items-center justify-center mb-4 group-hover:bg-tcl-crimson/5 transition-colors">
+                  <item.icon className="w-8 h-8 text-tcl-crimson stroke-[2px]" />
                 </div>
                 <h3 className="font-barlow-condensed font-semibold text-[17px] text-tcl-navy uppercase mb-1">{item.title}</h3>
                 <p className="font-source-sans text-sm text-[#666]">{item.sub}</p>

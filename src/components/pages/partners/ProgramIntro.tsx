@@ -14,8 +14,8 @@ const ProgramIntro = () => {
                viewport={{ once: true }}
             >
                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-[3px] bg-tcl-gold"></div>
-                  <span className="font-barlow-condensed font-medium text-[13px] uppercase tracking-widest text-tcl-gold">TCL Academy Partner Program</span>
+                  <div className="w-10 h-[3px] bg-tcl-crimson"></div>
+                  <span className="font-barlow-condensed font-medium text-[13px] uppercase tracking-widest text-tcl-navy">TCL Academy Partner Program</span>
                </div>
 
                <h2 className="font-barlow-condensed font-bold text-[40px] text-tcl-navy uppercase leading-[1.1] mb-8">
@@ -37,10 +37,10 @@ const ProgramIntro = () => {
                initial={{ opacity: 0, x: 30 }}
                whileInView={{ opacity: 1, x: 0 }}
                viewport={{ once: true }}
-               className="bg-white rounded-2xl border border-tcl-gray-200 shadow-xl p-8 border-l-[4px] border-l-tcl-gold relative"
+               className="bg-white rounded-2xl border border-tcl-gray-200 shadow-xl p-8 border-l-[4px] border-l-tcl-crimson relative"
             >
                <div className="w-[52px] h-[52px] rounded-lg bg-tcl-navy/10 flex items-center justify-center mb-6">
-                  <Users className="w-7 h-7 text-tcl-gold stroke-[2.5px]" />
+                  <Users className="w-7 h-7 text-tcl-crimson stroke-[2.5px]" />
                </div>
 
                <h3 className="font-barlow-condensed font-semibold text-[16px] text-tcl-navy uppercase mb-2">Who This Program Is For</h3>

@@ -31,7 +31,7 @@ const CTA = () => {
           transition={{ delay: 0.2 }}
           className="font-source-sans text-lg text-[#555] max-w-[600px] mx-auto leading-[1.6] mb-10"
         >
-          Whether you're a player, parent, coach, academy, umpire, or scorer—there's a place for you here.
+          Whether you&apos;re a player, parent, coach, academy, umpire, or scorer&mdash;there&apos;s a place for you here.
         </motion.p>
 
         <motion.div
@@ -57,15 +57,15 @@ const CTA = () => {
           className="flex flex-wrap justify-center items-center gap-x-6 gap-y-2 font-source-sans text-sm text-[#888]"
         >
           <a href="mailto:info@texomacricket.com" className="flex items-center gap-2 hover:text-tcl-navy transition-colors">
-            <Mail className="w-4 h-4 text-tcl-gold" /> info@texomacricket.com
+            <Mail className="w-4 h-4 text-tcl-crimson" /> info@texomacricket.com
           </a>
-          <span className="hidden sm:inline text-tcl-gold">·</span>
+          <span className="hidden sm:inline text-tcl-crimson">·</span>
           <a href="tel:469-246-7342" className="flex items-center gap-2 hover:text-tcl-navy transition-colors">
-            <Phone className="w-4 h-4 text-tcl-gold" /> 469-246-7342
+            <Phone className="w-4 h-4 text-tcl-crimson" /> 469-246-7342
           </a>
-          <span className="hidden sm:inline text-tcl-gold">·</span>
+          <span className="hidden sm:inline text-tcl-crimson">·</span>
           <div className="flex items-center gap-2">
-            <MapPin className="w-4 h-4 text-tcl-gold" /> Sports Texoma
+            <MapPin className="w-4 h-4 text-tcl-crimson" /> Sports Texoma
           </div>
         </motion.div>
       </div>

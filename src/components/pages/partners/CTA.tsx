@@ -8,7 +8,7 @@ const CTA = () => {
       <section className="bg-tcl-warm-stone py-24 md:py-28 relative overflow-hidden">
          {/* Decorative Elements */}
          <div className="absolute top-0 left-0 w-full h-16 bg-tcl-navy" style={{ clipPath: 'polygon(0 0, 100% 0, 100% 100%)' }}></div>
-         <div className="absolute top-[62px] left-0 w-full h-[2px] bg-tcl-gold transform -rotate-[0.5deg] origin-top-left hidden"></div>
+         <div className="absolute top-[62px] left-0 w-full h-[2px] bg-tcl-crimson transform -rotate-[0.5deg] origin-top-left hidden"></div>
 
          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 opacity-[0.03] pointer-events-none">
             <svg width="280" height="280" viewBox="0 0 24 24" fill="currentColor" className="text-tcl-navy">
@@ -18,7 +18,7 @@ const CTA = () => {
 
          <div className="max-w-3xl mx-auto px-4 text-center relative z-10 pt-10">
 
-            <span className="font-barlow-condensed font-medium text-tcl-gold uppercase tracking-widest text-sm block mb-4">Get Started</span>
+            <span className="font-barlow-condensed font-medium text-tcl-crimson uppercase tracking-widest text-sm block mb-4">Get Started</span>
 
             <motion.h2
                initial={{ opacity: 0, scale: 0.96 }}
@@ -36,7 +36,7 @@ const CTA = () => {
                transition={{ delay: 0.15 }}
                className="font-source-sans text-[18px] text-[#555] max-w-[580px] mx-auto leading-[1.6] mb-10"
             >
-               Take the first step toward national-level competition and become part of America's premier cricket ecosystem.
+               Take the first step toward national-level competition and become part of America&apos;s premier cricket ecosystem.
             </motion.p>
 
             <motion.div
@@ -63,11 +63,11 @@ const CTA = () => {
                className="flex flex-wrap justify-center items-center gap-x-6 gap-y-2 font-source-sans text-sm text-[#888]"
             >
                <a href="mailto:info@texomacricket.com" className="flex items-center gap-2 hover:text-tcl-navy transition-colors">
-                  <Mail className="w-4 h-4 text-tcl-gold" /> info@texomacricket.com
+                  <Mail className="w-4 h-4 text-tcl-crimson" /> info@texomacricket.com
                </a>
-               <span className="hidden sm:inline text-tcl-gold">·</span>
+               <span className="hidden sm:inline text-tcl-crimson">·</span>
                <a href="tel:469-246-7342" className="flex items-center gap-2 hover:text-tcl-navy transition-colors">
-                  <Phone className="w-4 h-4 text-tcl-gold" /> 469-246-7342
+                  <Phone className="w-4 h-4 text-tcl-crimson" /> 469-246-7342
                </a>
             </motion.div>
 

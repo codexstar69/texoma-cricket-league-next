@@ -15,8 +15,8 @@ const Values = () => {
             viewport={{ once: true }}
             className="flex items-center gap-3 mb-4"
           >
-            <div className="w-10 h-[3px] bg-tcl-gold"></div>
-            <span className="font-barlow-condensed font-medium text-[13px] uppercase tracking-widest text-tcl-gold">Our Values</span>
+            <div className="w-10 h-[3px] bg-tcl-crimson"></div>
+            <span className="font-barlow-condensed font-medium text-[13px] uppercase tracking-widest text-tcl-navy">Our Values</span>
           </motion.div>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -47,7 +47,7 @@ const Values = () => {
               viewport={{ once: true }}
             >
               <div className="w-16 h-16 rounded-xl bg-tcl-navy/5 flex items-center justify-center mb-6">
-                <TrendingUp className="w-9 h-9 text-tcl-gold stroke-[2.5px]" />
+                <TrendingUp className="w-9 h-9 text-tcl-crimson stroke-[2.5px]" />
               </div>
               <h3 className="font-barlow-condensed font-bold text-[28px] text-tcl-navy uppercase mb-4">Raising The Standard</h3>
               <p className="font-source-sans text-[17px] text-[#444] leading-[1.7] max-w-lg">
@@ -83,7 +83,7 @@ const Values = () => {
               className="order-1 md:order-2 md:pl-12"
             >
               <div className="w-16 h-16 rounded-xl bg-tcl-navy/5 flex items-center justify-center mb-6">
-                <Globe className="w-9 h-9 text-tcl-gold stroke-[2.5px]" />
+                <Globe className="w-9 h-9 text-tcl-crimson stroke-[2.5px]" />
               </div>
               <h3 className="font-barlow-condensed font-bold text-[28px] text-tcl-navy uppercase mb-4">A National Stage</h3>
               <p className="font-source-sans text-[17px] text-[#444] leading-[1.7] max-w-lg">
@@ -96,7 +96,7 @@ const Values = () => {
         {/* Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
-            { icon: GitMerge, title: "Purposeful Pathways", desc: "Our tournaments follow clear progression—from regional competition to national championships. Every match matters.", color: "border-t-tcl-gold" },
+            { icon: GitMerge, title: "Purposeful Pathways", desc: "Our tournaments follow clear progression—from regional competition to national championships. Every match matters.", color: "border-t-tcl-navy" },
             { icon: Heart, title: "Player-First Development", desc: "We prioritize skill growth, sportsmanship, and long-term development alongside competitive success. Players grow here.", color: "border-t-tcl-green" },
             { icon: ShieldCheck, title: "Professional & Trusted", desc: "We operate with professionalism, integrity, and transparency—earning the trust of players, families, and the cricket community.", color: "border-t-tcl-crimson" }
           ].map((item, i) => (

@@ -20,7 +20,7 @@ const adultTournaments = [
         format: 'T20',
         ball: 'White Ball',
         surface: 'Professional Natural Turf Wickets',
-        accent: 'bg-tcl-gold',
+        accent: 'bg-tcl-navy',
         statement:
             'The TX T20 Bash is a dynamic, high-intensity white-ball tournament designed for competitive adult cricketers and club teams. Played on professional-grade natural turf wickets, it delivers the excitement and pace of modern T20 cricket within a structured league framework. Combining aggressive gameplay, organized scheduling, and competitive standings, the TX T20 Bash provides a premium short-format experience that showcases skill, strategy, and entertainment at the highest level.',
     },
@@ -67,8 +67,8 @@ const TournamentPortfolio = () => {
                     className="mb-16"
                 >
                     <div className="flex items-center gap-4 mb-3">
-                        <div className="w-16 h-1 bg-tcl-gold"></div>
-                        <span className="font-barlow-condensed font-bold text-tcl-crimson uppercase tracking-[0.2em] text-sm">
+                        <div className="w-16 h-1 bg-tcl-crimson"></div>
+                        <span className="font-barlow-condensed font-bold text-tcl-navy uppercase tracking-[0.2em] text-sm">
                             Tournament Portfolio
                         </span>
                     </div>
@@ -109,7 +109,7 @@ const TournamentPortfolio = () => {
                                             key={i}
                                             className="inline-flex items-center gap-1.5 bg-tcl-navy/5 rounded-full px-3 py-1 text-xs font-barlow-condensed font-semibold text-tcl-navy uppercase tracking-wide"
                                         >
-                                            <span className="text-tcl-gold">{m.label}:</span> {m.value}
+                                            <span className="text-tcl-crimson">{m.label}:</span> {m.value}
                                         </span>
                                     ))}
                                 </div>
@@ -120,7 +120,7 @@ const TournamentPortfolio = () => {
                             </div>
 
                             {/* Bottom hover accent */}
-                            <div className="absolute bottom-0 left-0 h-1 bg-tcl-gold w-0 group-hover:w-full transition-all duration-300" />
+                            <div className="absolute bottom-0 left-0 h-1 bg-tcl-crimson w-0 group-hover:w-full transition-all duration-300" />
                         </motion.div>
                     ))}
                 </div>
@@ -133,8 +133,8 @@ const TournamentPortfolio = () => {
                     className="mb-10"
                 >
                     <div className="flex items-center gap-4 mb-2">
-                        <div className="w-12 h-1 bg-tcl-gold"></div>
-                        <span className="font-barlow-condensed font-bold text-tcl-crimson uppercase tracking-[0.2em] text-sm">
+                        <div className="w-12 h-1 bg-tcl-crimson"></div>
+                        <span className="font-barlow-condensed font-bold text-tcl-navy uppercase tracking-[0.2em] text-sm">
                             Holiday Circuit
                         </span>
                     </div>
@@ -187,7 +187,7 @@ const TournamentPortfolio = () => {
                                 </p>
                             </div>
 
-                            <div className="absolute bottom-0 left-0 h-1 bg-tcl-gold w-0 group-hover:w-full transition-all duration-300" />
+                            <div className="absolute bottom-0 left-0 h-1 bg-tcl-crimson w-0 group-hover:w-full transition-all duration-300" />
                         </motion.div>
                     ))}
                 </div>

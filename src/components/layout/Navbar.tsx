@@ -54,28 +54,28 @@ const Navbar = () => {
       <header className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ease-out`}>
         {/* Utility Top Bar - Enterprise Depth */}
         <div
-          className={`bg-tcl-navy-dark/40 backdrop-blur-md border-b border-white/5 transition-all duration-500 overflow-hidden ${isScrolled ? 'h-0 opacity-0' : 'h-10 opacity-100'
+          className={`bg-white border-b border-tcl-light-gray transition-all duration-500 overflow-hidden ${isScrolled ? 'h-0 opacity-0' : 'h-10 opacity-100'
             }`}
         >
-          <div className="max-w-7xl mx-auto px-4 md:px-6 h-full flex items-center justify-between font-source-sans text-[11px] uppercase tracking-widest font-semibold text-white/50">
+          <div className="max-w-7xl mx-auto px-4 md:px-6 h-full flex items-center justify-between font-source-sans text-[11px] uppercase tracking-widest font-semibold text-tcl-navy/60">
             <div className="flex items-center gap-6">
-              <a href="tel:469-246-7342" className="flex items-center gap-2 hover:text-tcl-gold transition-colors">
-                <Phone size={14} weight="bold" className="text-tcl-gold" />
+              <a href="tel:469-246-7342" className="flex items-center gap-2 hover:text-tcl-crimson transition-colors">
+                <Phone size={14} weight="fill" className="text-tcl-crimson" />
                 <span>469.246.7342</span>
               </a>
-              <a href="mailto:info@crickettexoma.com" className="hidden sm:flex items-center gap-2 hover:text-tcl-gold transition-colors">
-                <EnvelopeSimple size={14} weight="bold" className="text-tcl-gold" />
+              <a href="mailto:info@crickettexoma.com" className="hidden sm:flex items-center gap-2 hover:text-tcl-crimson transition-colors">
+                <EnvelopeSimple size={14} weight="fill" className="text-tcl-crimson" />
                 <span>info@crickettexoma.com</span>
               </a>
             </div>
             <div className="flex items-center gap-4">
               <div className="flex items-center gap-1.5">
-                <Globe size={14} weight="bold" className="text-tcl-gold/60" />
+                <Globe size={14} weight="fill" className="text-tcl-navy/40" />
                 <span>TEXAS & OKLAHOMA</span>
               </div>
-              <span className="text-white/10">|</span>
-              <Link href="/partners" className="flex items-center gap-1.5 hover:text-white transition-colors">
-                <Users size={14} weight="bold" className="text-tcl-gold/60" />
+              <span className="text-tcl-light-gray">|</span>
+              <Link href="/partners" className="flex items-center gap-1.5 hover:text-tcl-navy transition-colors">
+                <Users size={14} weight="fill" className="text-tcl-navy/40" />
                 <span>ACADEMY PORTAL</span>
               </Link>
             </div>
@@ -86,12 +86,12 @@ const Navbar = () => {
         <nav
           aria-label="Main navigation"
           className={`transition-all duration-500 relative ${isScrolled
-            ? 'bg-tcl-navy/90 backdrop-blur-2xl py-3 shadow-[0_4px_30px_rgba(0,0,0,0.3)]'
-            : 'bg-transparent py-6'
+            ? 'bg-white/95 backdrop-blur-2xl py-1 md:py-2 shadow-[0_4px_30px_rgba(0,0,0,0.06)]'
+            : 'bg-white/90 backdrop-blur-sm py-1 md:py-2 border-b border-tcl-light-gray shadow-sm'
             }`}
         >
           {/* Subtle Bottom Accent Line */}
-          <div className={`absolute bottom-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-tcl-gold/30 to-transparent transition-opacity duration-500 ${isScrolled ? 'opacity-100' : 'opacity-0'}`} />
+          <div className={`absolute bottom-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-tcl-crimson/20 to-transparent transition-opacity duration-500 ${isScrolled ? 'opacity-100' : 'opacity-0'}`} />
 
           <div className="max-w-7xl mx-auto px-4 md:px-6 flex items-center justify-between">
             {/* Logo Wrapper */}
@@ -104,14 +104,14 @@ const Navbar = () => {
                 <img
                   src="/cricket-texoma-logo-2026.png"
                   alt="Cricket Texoma logo"
-                  className={`w-auto object-contain transition-all duration-500 ${isScrolled ? 'h-16 md:h-20' : 'h-24 md:h-32'
+                  className={`w-auto object-contain transition-all duration-500 origin-left scale-125 md:scale-100 ${isScrolled ? 'h-12 md:h-16' : 'h-[3.75rem] md:h-24'
                     }`}
                   width={128}
                   height={128}
                 />
               </div>
-              <div className={`hidden lg:flex flex-col border-l border-white/10 pl-4 transition-all duration-500 ${isScrolled ? 'opacity-0 -translate-x-4 pointer-events-none' : 'opacity-100 translate-x-0'}`}>
-                <span className="font-barlow-condensed font-bold text-2xl text-white leading-none tracking-tight">CRICKET TEXOMA</span>
+              <div className={`hidden lg:flex flex-col border-l border-tcl-light-gray pl-4 transition-all duration-500 ${isScrolled ? 'opacity-0 -translate-x-4 pointer-events-none hidden' : 'opacity-100 translate-x-0'}`}>
+                <span className="font-barlow-condensed font-bold text-xl text-tcl-navy leading-none tracking-tight">CRICKET TEXOMA</span>
               </div>
             </Link>
 
@@ -121,7 +121,7 @@ const Navbar = () => {
                 <Link
                   key={item.id}
                   href={item.href}
-                  className={`group relative font-barlow-condensed font-semibold text-[15px] uppercase tracking-[0.1em] transition-all py-2 ${currentPage === item.id ? 'text-tcl-gold' : 'text-white/60 hover:text-white'
+                  className={`group relative font-barlow-condensed font-semibold text-[15px] uppercase tracking-[0.1em] transition-all py-2 ${currentPage === item.id ? 'text-tcl-crimson' : 'text-tcl-navy/60 hover:text-tcl-navy'
                     }`}
                   aria-current={currentPage === item.id ? 'page' : undefined}
                 >
@@ -130,11 +130,11 @@ const Navbar = () => {
                   {currentPage === item.id ? (
                     <motion.div
                       layoutId="navUnderline"
-                      className="absolute -bottom-1 left-0 w-full h-[2px] bg-tcl-gold shadow-[0_0_10px_rgba(244,180,0,0.5)]"
+                      className="absolute -bottom-1 left-0 w-full h-[2px] bg-tcl-crimson"
                       transition={TRANSITION_SPRING}
                     />
                   ) : (
-                    <div className="absolute -bottom-1 left-0 w-0 h-[2px] bg-white/20 transition-all duration-300 group-hover:w-full" />
+                    <div className="absolute -bottom-1 left-0 w-0 h-[2px] bg-tcl-navy/20 transition-all duration-300 group-hover:w-full" />
                   )}
                 </Link>
               ))}
@@ -143,8 +143,8 @@ const Navbar = () => {
             {/* Actions Area */}
             <div className="flex items-center gap-6">
               <div className="hidden xl:flex flex-col text-right">
-                <span className="font-barlow-condensed font-bold text-tcl-gold text-base uppercase tracking-tighter">Season 2026</span>
-                <span className="font-source-sans font-bold text-xs text-white/40 uppercase tracking-widest">Enrollment Open</span>
+                <span className="font-barlow-condensed font-bold text-tcl-navy text-base uppercase tracking-tighter">Season 2026</span>
+                <span className="font-source-sans font-bold text-xs text-tcl-crimson uppercase tracking-widest">Enrollment Open</span>
               </div>
 
               <Link href="/register">
@@ -153,8 +153,8 @@ const Navbar = () => {
                   whileTap={{ scale: 0.98 }}
                   className={`hidden md:flex items-center gap-3 text-white font-barlow-condensed font-bold text-[13px] uppercase tracking-[0.1em] px-8 py-3.5 rounded-full transition-all relative overflow-hidden group cursor-pointer
                     ${currentPage === 'register'
-                      ? 'bg-tcl-crimson ring-2 ring-tcl-gold ring-offset-4 ring-offset-tcl-navy'
-                      : 'bg-tcl-crimson hover:bg-tcl-crimson-bright shadow-lg hover:shadow-tcl-crimson/25'}
+                      ? 'bg-tcl-navy ring-2 ring-tcl-crimson ring-offset-2 ring-offset-white'
+                      : 'bg-tcl-navy hover:bg-tcl-navy-light shadow-lg hover:shadow-tcl-navy/25'}
                   `}
                 >
                   <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:animate-[shimmer_2s_infinite]" />
@@ -164,7 +164,7 @@ const Navbar = () => {
 
               <button
                 onClick={() => setIsMobileOpen(true)}
-                className="md:hidden text-white p-2 hover:bg-white/10 rounded-xl transition-all relative z-50"
+                className="md:hidden text-tcl-navy p-2 hover:bg-tcl-light-gray rounded-xl transition-all relative z-50"
                 aria-label="Open mobile navigation menu"
               >
                 <List weight="bold" size={28} />
@@ -181,17 +181,17 @@ const Navbar = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 bg-tcl-navy-dark/95 backdrop-blur-2xl z-[60] flex flex-col"
+            className="fixed inset-0 bg-white/95 backdrop-blur-3xl z-[60] flex flex-col"
             role="dialog"
             aria-modal="true"
             aria-label="Mobile navigation menu"
           >
             {/* Header in Overlay */}
-            <div className="flex justify-between items-center p-6 border-b border-white/5">
+            <div className="flex justify-between items-center p-6 border-b border-tcl-light-gray">
               <img src="/cricket-texoma-logo-2026.png" alt="Cricket Texoma" className="h-14" width={56} height={56} />
               <button
                 onClick={() => setIsMobileOpen(false)}
-                className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-tcl-crimson transition-all"
+                className="w-12 h-12 rounded-full bg-tcl-off-white flex items-center justify-center text-tcl-navy hover:bg-tcl-light-gray transition-all shadow-sm"
                 aria-label="Close navigation menu"
               >
                 <X weight="bold" size={24} />
@@ -208,13 +208,13 @@ const Navbar = () => {
                 >
                   <Link
                     href={item.href}
-                    className={`group flex items-center justify-between font-barlow-condensed font-bold text-5xl uppercase tracking-tighter py-2 border-b border-white/5 transition-all ${currentPage === item.id ? 'text-tcl-gold pl-4' : 'text-white/40 hover:text-white hover:pl-2'
+                    className={`group flex items-center justify-between font-barlow-condensed font-bold text-5xl uppercase tracking-tighter py-2 border-b border-tcl-light-gray transition-all ${currentPage === item.id ? 'text-tcl-crimson pl-4' : 'text-tcl-navy/40 hover:text-tcl-navy hover:pl-2'
                       }`}
                     onClick={() => setIsMobileOpen(false)}
                     aria-current={currentPage === item.id ? 'page' : undefined}
                   >
                     <span>{item.name}</span>
-                    <div className={`w-8 h-1 bg-tcl-gold rounded-full transition-transform duration-300 ${currentPage === item.id ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-50 origin-right'}`} />
+                    <div className={`w-8 h-1 bg-tcl-crimson rounded-full transition-transform duration-300 ${currentPage === item.id ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-50 origin-right'}`} />
                   </Link>
                 </motion.div>
               ))}
@@ -223,22 +223,22 @@ const Navbar = () => {
             {/* CTA in Overlay */}
             <div className="p-8 pb-12 w-full space-y-6">
               <div className="flex flex-col gap-4 text-center">
-                <p className="font-source-sans text-[11px] text-white/30 uppercase tracking-[0.2em] font-bold">Inquiries & Support</p>
+                <p className="font-source-sans text-[11px] text-tcl-navy/40 uppercase tracking-[0.2em] font-bold">Inquiries & Support</p>
                 <div className="flex justify-center gap-8">
                   <a href="tel:469-246-7342" className="flex flex-col items-center gap-2" aria-label="Call Cricket Texoma">
-                    <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center"><Phone className="text-tcl-gold" size={18} /></div>
-                    <span className="font-barlow-condensed font-bold text-white text-sm">Call</span>
+                    <div className="w-10 h-10 rounded-full bg-tcl-off-white flex items-center justify-center shadow-sm"><Phone className="text-tcl-crimson" size={18} /></div>
+                    <span className="font-barlow-condensed font-bold text-tcl-navy text-sm">Call</span>
                   </a>
                   <a href="mailto:info@crickettexoma.com" className="flex flex-col items-center gap-2" aria-label="Email Cricket Texoma">
-                    <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center"><EnvelopeSimple className="text-tcl-gold" size={18} /></div>
-                    <span className="font-barlow-condensed font-bold text-white text-sm">Email</span>
+                    <div className="w-10 h-10 rounded-full bg-tcl-off-white flex items-center justify-center shadow-sm"><EnvelopeSimple className="text-tcl-crimson" size={18} /></div>
+                    <span className="font-barlow-condensed font-bold text-tcl-navy text-sm">Email</span>
                   </a>
                 </div>
               </div>
               <Link
                 href="/register"
                 onClick={() => setIsMobileOpen(false)}
-                className="block w-full bg-tcl-crimson text-white text-center font-barlow-condensed font-black text-xl uppercase py-5 rounded-2xl shadow-2xl shadow-tcl-crimson/30 hover:bg-tcl-crimson-bright active:scale-[0.98] transition-all"
+                className="block w-full bg-tcl-navy text-white text-center font-barlow-condensed font-black text-xl uppercase py-5 rounded-2xl shadow-xl shadow-tcl-navy/20 hover:bg-tcl-navy-light active:scale-[0.98] transition-all"
               >
                 Register Your Team
               </Link>

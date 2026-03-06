@@ -28,7 +28,7 @@ const PartnersPage = () => {
             </h1>
 
             <p className="font-source-sans text-white/60 text-lg max-w-2xl mx-auto leading-relaxed">
-              We're building exciting partnership opportunities for academies and organizations across the country. Check back soon for details on how to join the Cricket Texoma network.
+              We&apos;re building exciting partnership opportunities for academies and organizations across the country. Check back soon for details on how to join the Cricket Texoma network.
             </p>
           </motion.div>
         </div>

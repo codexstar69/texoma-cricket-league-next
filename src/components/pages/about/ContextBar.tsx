@@ -4,9 +4,9 @@ import { Target, Star, Building2 } from 'lucide-react';
 
 const ContextBar = () => {
   return (
-    <section className="bg-tcl-navy py-12 border-t border-white/10">
+    <section className="bg-tcl-off-white py-12 border-b border-tcl-light-gray relative z-10">
       <div className="max-w-6xl mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:divide-x md:divide-tcl-gold/20">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:divide-x md:divide-tcl-light-gray">
           {[
             { icon: Target, title: "National Platform", desc: "Unifying cricket communities across the US" },
             { icon: Star, title: "Talent Showcase", desc: "National visibility for emerging young cricketers" },
@@ -20,9 +20,9 @@ const ContextBar = () => {
               transition={{ delay: i * 0.15 }}
               className="flex flex-col items-center text-center px-4"
             >
-              <item.icon className="w-7 h-7 text-tcl-gold mb-3 stroke-[2.5px]" />
-              <h3 className="font-barlow-condensed font-semibold text-base text-tcl-white uppercase tracking-wide mb-1">{item.title}</h3>
-              <p className="font-source-sans text-sm text-tcl-white/70 max-w-[240px]">{item.desc}</p>
+              <item.icon className="w-7 h-7 text-tcl-crimson mb-3 stroke-[2.5px]" />
+              <h3 className="font-barlow-condensed font-semibold text-base text-tcl-navy uppercase tracking-wide mb-1">{item.title}</h3>
+              <p className="font-source-sans text-sm text-[#555] max-w-[240px]">{item.desc}</p>
             </motion.div>
           ))}
         </div>

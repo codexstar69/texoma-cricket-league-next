@@ -107,7 +107,7 @@ const renderTierDots = (rowTiers: string[]) => (
       <div className={`w-2 h-2 rounded-full ${rowTiers.includes('regional') ? 'bg-tcl-sky' : 'bg-tcl-gray-200'}`} aria-label="Regional Partner"></div>
       <div className={`w-2 h-2 rounded-full ${rowTiers.includes('national') ? 'bg-tcl-navy' : 'bg-tcl-gray-200'}`} aria-label="National Partner"></div>
       {rowTiers.includes('founding') ? (
-        <Star className="w-2.5 h-2.5 text-tcl-gold fill-tcl-gold" aria-label="Founding Partner" />
+        <Star className="w-2.5 h-2.5 text-tcl-crimson fill-tcl-crimson" aria-label="Founding Partner" />
       ) : (
         <div className="w-2 h-2 rounded-full bg-tcl-gray-200"></div>
       )}
@@ -169,7 +169,7 @@ const TournamentTable = () => {
                           {season.season}
                         </span>
                         {season.isFlagship && (
-                          <span className="inline-block mt-1.5 text-[10px] font-bold text-tcl-gold uppercase tracking-wider leading-none">Flagship</span>
+                          <span className="inline-block mt-1.5 text-[10px] font-bold text-tcl-crimson uppercase tracking-wider leading-none">Flagship</span>
                         )}
                       </div>
                     </div>
@@ -219,7 +219,7 @@ const TournamentTable = () => {
                  `}
             >
               {season.isFlagship && (
-                <div className="absolute top-0 right-0 bg-tcl-gold text-tcl-navy font-barlow-condensed font-bold text-[10px] uppercase px-3 py-1 rounded-bl-lg shadow-sm">Flagship</div>
+                <div className="absolute top-0 right-0 bg-tcl-crimson text-white font-barlow-condensed font-bold text-[10px] uppercase px-3 py-1 rounded-bl-lg shadow-sm">Flagship</div>
               )}
 
               {/* Header Row */}
@@ -260,7 +260,7 @@ const TournamentTable = () => {
                   <div className="w-2 h-2 rounded-full bg-tcl-green"></div>
                   <div className="w-2 h-2 rounded-full bg-tcl-sky"></div>
                   <div className="w-2 h-2 rounded-full bg-tcl-navy"></div>
-                  <Star className="w-2.5 h-2.5 text-tcl-gold fill-tcl-gold" />
+                  <Star className="w-2.5 h-2.5 text-tcl-crimson fill-tcl-crimson" />
                 </div>
               </div>
             </motion.article>

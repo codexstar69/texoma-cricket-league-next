@@ -8,7 +8,7 @@ const CTABanner = () => {
     <section className="bg-tcl-crimson py-24 md:py-32 relative overflow-hidden">
       {/* Texture */}
       <div className="absolute inset-0 bg-stripe-pattern opacity-5 pointer-events-none"></div>
-      <div className="absolute inset-0 bg-radial-gradient from-tcl-gold/20 to-transparent pointer-events-none mix-blend-overlay"></div>
+      <div className="absolute inset-0 bg-radial-gradient from-white/20 to-transparent pointer-events-none mix-blend-overlay"></div>
 
       <div className="max-w-4xl mx-auto px-4 text-center relative z-10">
         <motion.div
@@ -17,7 +17,7 @@ const CTABanner = () => {
           viewport={{ once: true }}
           className="mb-6 inline-block"
         >
-          <span className="bg-tcl-gold text-tcl-navy font-barlow-condensed font-bold text-xs uppercase tracking-[0.2em] px-4 py-1.5 rounded-full shadow-lg">
+          <span className="bg-tcl-navy text-white font-barlow-condensed font-bold text-xs uppercase tracking-[0.2em] px-4 py-1.5 rounded-full shadow-lg">
             Limited Availability
           </span>
         </motion.div>
@@ -84,8 +84,8 @@ const CTABanner = () => {
             className="group flex items-center gap-4 bg-tcl-navy/30 hover:bg-tcl-navy/50 backdrop-blur-xl border border-white/10 px-8 py-4 rounded-2xl transition-all shadow-xl hover:shadow-2xl active:scale-95"
             aria-label="Call Cricket Texoma at 469-246-7342"
           >
-            <div className="w-12 h-12 bg-tcl-gold rounded-xl flex items-center justify-center shadow-lg group-hover:rotate-12 transition-transform">
-              <Phone className="w-6 h-6 text-tcl-navy fill-tcl-navy/20" />
+            <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center shadow-lg group-hover:rotate-12 transition-transform">
+              <Phone className="w-6 h-6 text-tcl-crimson fill-tcl-crimson/20" />
             </div>
             <div className="text-left">
               <span className="block font-barlow-condensed font-bold text-2xl text-white leading-none">469-246-7342</span>

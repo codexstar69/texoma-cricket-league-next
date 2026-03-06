@@ -38,10 +38,10 @@ const QuickLinks = () => {
                         viewport={{ once: true }}
                         transition={{ delay: i * 0.1 }}
                         whileHover={{ y: -3 }}
-                        className="bg-white rounded-xl border border-tcl-light-gray p-5 text-center group hover:border-tcl-gold transition-all duration-200 shadow-sm hover:shadow-layered"
+                        className="bg-white rounded-xl border border-tcl-light-gray p-5 text-center group hover:border-tcl-crimson transition-all duration-200 shadow-sm hover:shadow-layered"
                      >
-                        <div className="w-[52px] h-[52px] mx-auto rounded-xl bg-tcl-navy/10 flex items-center justify-center mb-4 group-hover:bg-tcl-gold/15 transition-colors">
-                           <item.icon weight="bold" size={28} className="text-tcl-gold" />
+                        <div className="w-[52px] h-[52px] mx-auto rounded-xl bg-tcl-navy/10 flex items-center justify-center mb-4 group-hover:bg-tcl-crimson/10 transition-colors">
+                           <item.icon weight="bold" size={28} className="text-tcl-crimson" />
                         </div>
                         <span className="font-barlow-condensed font-semibold text-[15px] text-tcl-navy uppercase tracking-wide group-hover:text-tcl-crimson transition-colors">{item.title}</span>
                      </motion.div>
@@ -64,7 +64,7 @@ const QuickLinks = () => {
                      { Icon: FacebookLogo, href: 'https://www.facebook.com/crickettexoma', label: 'Facebook' },
                      { Icon: YoutubeLogo, href: 'https://www.youtube.com/@crickettexoma', label: 'YouTube' },
                   ].map(({ Icon, href, label }) => (
-                     <a key={label} href={href} target="_blank" rel="noopener noreferrer" aria-label={`Follow us on ${label}`} className="text-[#999] hover:text-tcl-gold transition-colors p-2 rounded-full hover:bg-white/50">
+                     <a key={label} href={href} target="_blank" rel="noopener noreferrer" aria-label={`Follow us on ${label}`} className="text-[#999] hover:text-tcl-crimson transition-colors p-2 rounded-full hover:bg-white/50">
                         <Icon weight="bold" size={22} />
                      </a>
                   ))}

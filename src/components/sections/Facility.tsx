@@ -9,7 +9,7 @@ const Facility = () => {
         {/* Left Text */}
         <div>
           <div className="flex items-center gap-4 mb-3">
-            <div className="w-16 h-1 bg-tcl-gold"></div>
+            <div className="w-16 h-1 bg-tcl-crimson"></div>
             <span className="font-rajdhani font-bold text-tcl-navy uppercase tracking-widest text-sm">Our Home</span>
           </div>
           <h2 className="font-oswald font-bold text-4xl text-tcl-navy mb-2">Sports Texoma</h2>
@@ -52,13 +52,13 @@ const Facility = () => {
 
       {/* Vision Mission Band */}
       <div className="max-w-6xl mx-auto px-4 mt-16">
-        <div className="bg-tcl-white/80 border border-tcl-green-surface rounded-xl p-8 md:p-12 shadow-sm grid grid-cols-1 md:grid-cols-2 gap-8 md:divide-x divide-tcl-gold/30">
+        <div className="bg-tcl-white border border-tcl-light-gray rounded-xl p-8 md:p-12 shadow-sm grid grid-cols-1 md:grid-cols-2 gap-8 md:divide-x divide-tcl-light-gray">
           <div className="md:pr-8">
-            <span className="font-rajdhani font-bold text-tcl-gold uppercase text-xs tracking-wider block mb-2">Our Vision</span>
+            <span className="font-rajdhani font-bold text-tcl-crimson uppercase text-xs tracking-wider block mb-2">Our Vision</span>
             <p className="font-montserrat font-semibold italic text-tcl-navy text-lg md:text-xl">To build a unified national pathway that connects grassroots participation to elite competition.</p>
           </div>
           <div className="md:pl-8">
-            <span className="font-rajdhani font-bold text-tcl-gold uppercase text-xs tracking-wider block mb-2">Our Mission</span>
+            <span className="font-rajdhani font-bold text-tcl-crimson uppercase text-xs tracking-wider block mb-2">Our Mission</span>
             <p className="font-montserrat font-semibold italic text-tcl-navy text-lg md:text-xl">To unite cricket teams across the US through a respected tournament platform with high professional standards.</p>
           </div>
         </div>

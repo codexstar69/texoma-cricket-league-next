@@ -7,7 +7,7 @@ const Membership = () => {
   // Hidden per user request
   return null;
 
-  
+
 
   return (
     <section className="bg-tcl-gray-50 py-20 md:py-32">
@@ -18,7 +18,7 @@ const Membership = () => {
             <span className="font-rajdhani font-bold text-tcl-crimson uppercase tracking-[0.2em] text-sm">Join The Community</span>
           </div>
           <h2 className="font-oswald font-bold text-3xl md:text-5xl text-tcl-navy uppercase mb-4">Membership Options</h2>
-          <p className="font-roboto text-tcl-gray-700 text-lg">Whether you're a solo player, a family, or a full team — there's a tier built for you.</p>
+          <p className="font-roboto text-tcl-gray-700 text-lg">Whether you&apos;re a solo player, a family, or a full team &mdash; there&apos;s a tier built for you.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">

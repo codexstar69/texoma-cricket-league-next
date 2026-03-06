@@ -27,25 +27,25 @@ const TermsOfService = () => {
       tocItems={tocItems}
     >
       <h2 id="acceptance" className="font-barlow-condensed font-semibold text-[22px] text-tcl-navy uppercase tracking-wide mt-10 mb-4 flex items-center gap-3">
-        <span className="w-6 h-[2px] bg-tcl-gold block"></span>
+        <span className="w-6 h-[2px] bg-tcl-crimson block"></span>
         1. Introduction & Acceptance
       </h2>
       <p className="mb-4">
-        Welcome to Cricket Texoma ("TCL"). These Terms of Service ("Terms") govern your use of our website and your participation in all TCL tournaments, events, and programs.
+        Welcome to Cricket Texoma (&ldquo;TCL&rdquo;). These Terms of Service (&ldquo;Terms&rdquo;) govern your use of our website and your participation in all TCL tournaments, events, and programs.
       </p>
       <p className="mb-4">
         By accessing our website, registering for an event, or paying membership fees, you agree to be bound by these Terms. If you are registering a minor (under 18 years of age), you agree to these Terms on their behalf as their parent or legal guardian.
       </p>
 
       <h2 id="eligibility" className="font-barlow-condensed font-semibold text-[22px] text-tcl-navy uppercase tracking-wide mt-10 mb-4 flex items-center gap-3">
-        <span className="w-6 h-[2px] bg-tcl-gold block"></span>
+        <span className="w-6 h-[2px] bg-tcl-crimson block"></span>
         2. Eligibility
       </h2>
       <ul className="list-none pl-4 mb-4 space-y-2">
-        <li className="relative pl-6 before:content-[''] before:absolute before:left-0 before:top-[9px] before:w-[6px] before:h-[6px] before:rounded-full before:bg-tcl-gold">
+        <li className="relative pl-6 before:content-[''] before:absolute before:left-0 before:top-[9px] before:w-[6px] before:h-[6px] before:rounded-full before:bg-tcl-crimson">
           <strong>Programs:</strong> Open to players aged 6–18. Players must meet specific age cut-off dates for their respective age groups (e.g., U11, U13, U15).
         </li>
-        <li className="relative pl-6 before:content-[''] before:absolute before:left-0 before:top-[9px] before:w-[6px] before:h-[6px] before:rounded-full before:bg-tcl-gold">
+        <li className="relative pl-6 before:content-[''] before:absolute before:left-0 before:top-[9px] before:w-[6px] before:h-[6px] before:rounded-full before:bg-tcl-crimson">
           <strong>Adult Programs:</strong> Open to participants 18 years of age or older.
         </li>
       </ul>
@@ -54,7 +54,7 @@ const TermsOfService = () => {
       </p>
 
       <h2 id="registration" className="font-barlow-condensed font-semibold text-[22px] text-tcl-navy uppercase tracking-wide mt-10 mb-4 flex items-center gap-3">
-        <span className="w-6 h-[2px] bg-tcl-gold block"></span>
+        <span className="w-6 h-[2px] bg-tcl-crimson block"></span>
         3. Registration & Membership
       </h2>
       <p className="mb-4">
@@ -65,20 +65,20 @@ const TermsOfService = () => {
       </p>
 
       <h2 id="conduct" className="font-barlow-condensed font-semibold text-[22px] text-tcl-navy uppercase tracking-wide mt-10 mb-4 flex items-center gap-3">
-        <span className="w-6 h-[2px] bg-tcl-gold block"></span>
+        <span className="w-6 h-[2px] bg-tcl-crimson block"></span>
         4. Code of Conduct
       </h2>
       <p className="mb-4">
         All participants—including players, parents, coaches, and spectators—must adhere to the TCL Code of Conduct. We enforce a zero-tolerance policy regarding:
       </p>
       <ul className="list-none pl-4 mb-4 space-y-2">
-        <li className="relative pl-6 before:content-[''] before:absolute before:left-0 before:top-[9px] before:w-[6px] before:h-[6px] before:rounded-full before:bg-tcl-gold">
+        <li className="relative pl-6 before:content-[''] before:absolute before:left-0 before:top-[9px] before:w-[6px] before:h-[6px] before:rounded-full before:bg-tcl-crimson">
           Abuse, harassment, or discrimination of any kind.
         </li>
-        <li className="relative pl-6 before:content-[''] before:absolute before:left-0 before:top-[9px] before:w-[6px] before:h-[6px] before:rounded-full before:bg-tcl-gold">
+        <li className="relative pl-6 before:content-[''] before:absolute before:left-0 before:top-[9px] before:w-[6px] before:h-[6px] before:rounded-full before:bg-tcl-crimson">
           Physical violence or threats toward officials, players, or staff.
         </li>
-        <li className="relative pl-6 before:content-[''] before:absolute before:left-0 before:top-[9px] before:w-[6px] before:h-[6px] before:rounded-full before:bg-tcl-gold">
+        <li className="relative pl-6 before:content-[''] before:absolute before:left-0 before:top-[9px] before:w-[6px] before:h-[6px] before:rounded-full before:bg-tcl-crimson">
           Unsportsmanlike conduct, including cheating or match-fixing.
         </li>
       </ul>
@@ -87,7 +87,7 @@ const TermsOfService = () => {
       </p>
 
       <h2 id="participation" className="font-barlow-condensed font-semibold text-[22px] text-tcl-navy uppercase tracking-wide mt-10 mb-4 flex items-center gap-3">
-        <span className="w-6 h-[2px] bg-tcl-gold block"></span>
+        <span className="w-6 h-[2px] bg-tcl-crimson block"></span>
         5. Tournament Rules & Participation
       </h2>
       <p className="mb-4">
@@ -95,7 +95,7 @@ const TermsOfService = () => {
       </p>
 
       <h2 id="fees" className="font-barlow-condensed font-semibold text-[22px] text-tcl-navy uppercase tracking-wide mt-10 mb-4 flex items-center gap-3">
-        <span className="w-6 h-[2px] bg-tcl-gold block"></span>
+        <span className="w-6 h-[2px] bg-tcl-crimson block"></span>
         6. Fees & Payments
       </h2>
       <p className="mb-4">
@@ -106,7 +106,7 @@ const TermsOfService = () => {
       </p>
 
       <h2 id="risk" className="font-barlow-condensed font-semibold text-[22px] text-tcl-navy uppercase tracking-wide mt-10 mb-4 flex items-center gap-3">
-        <span className="w-6 h-[2px] bg-tcl-gold block"></span>
+        <span className="w-6 h-[2px] bg-tcl-crimson block"></span>
         7. Assumption of Risk
       </h2>
       <p className="mb-4">
@@ -117,7 +117,7 @@ const TermsOfService = () => {
       </p>
 
       <h2 id="liability" className="font-barlow-condensed font-semibold text-[22px] text-tcl-navy uppercase tracking-wide mt-10 mb-4 flex items-center gap-3">
-        <span className="w-6 h-[2px] bg-tcl-gold block"></span>
+        <span className="w-6 h-[2px] bg-tcl-crimson block"></span>
         8. Limitation of Liability
       </h2>
       <p className="mb-4">
@@ -125,7 +125,7 @@ const TermsOfService = () => {
       </p>
 
       <h2 id="intellectual-property" className="font-barlow-condensed font-semibold text-[22px] text-tcl-navy uppercase tracking-wide mt-10 mb-4 flex items-center gap-3">
-        <span className="w-6 h-[2px] bg-tcl-gold block"></span>
+        <span className="w-6 h-[2px] bg-tcl-crimson block"></span>
         9. Intellectual Property
       </h2>
       <p className="mb-4">
@@ -133,7 +133,7 @@ const TermsOfService = () => {
       </p>
 
       <h2 id="media" className="font-barlow-condensed font-semibold text-[22px] text-tcl-navy uppercase tracking-wide mt-10 mb-4 flex items-center gap-3">
-        <span className="w-6 h-[2px] bg-tcl-gold block"></span>
+        <span className="w-6 h-[2px] bg-tcl-crimson block"></span>
         10. Photos, Videos & Media
       </h2>
       <p className="mb-4">
@@ -141,7 +141,7 @@ const TermsOfService = () => {
       </p>
 
       <h2 id="privacy" className="font-barlow-condensed font-semibold text-[22px] text-tcl-navy uppercase tracking-wide mt-10 mb-4 flex items-center gap-3">
-        <span className="w-6 h-[2px] bg-tcl-gold block"></span>
+        <span className="w-6 h-[2px] bg-tcl-crimson block"></span>
         11. Privacy
       </h2>
       <p className="mb-4">
@@ -149,7 +149,7 @@ const TermsOfService = () => {
       </p>
 
       <h2 id="modifications" className="font-barlow-condensed font-semibold text-[22px] text-tcl-navy uppercase tracking-wide mt-10 mb-4 flex items-center gap-3">
-        <span className="w-6 h-[2px] bg-tcl-gold block"></span>
+        <span className="w-6 h-[2px] bg-tcl-crimson block"></span>
         12. Modifications to Terms
       </h2>
       <p className="mb-4">
@@ -157,7 +157,7 @@ const TermsOfService = () => {
       </p>
 
       <h2 id="termination" className="font-barlow-condensed font-semibold text-[22px] text-tcl-navy uppercase tracking-wide mt-10 mb-4 flex items-center gap-3">
-        <span className="w-6 h-[2px] bg-tcl-gold block"></span>
+        <span className="w-6 h-[2px] bg-tcl-crimson block"></span>
         13. Termination
       </h2>
       <p className="mb-4">
@@ -165,7 +165,7 @@ const TermsOfService = () => {
       </p>
 
       <h2 id="governing-law" className="font-barlow-condensed font-semibold text-[22px] text-tcl-navy uppercase tracking-wide mt-10 mb-4 flex items-center gap-3">
-        <span className="w-6 h-[2px] bg-tcl-gold block"></span>
+        <span className="w-6 h-[2px] bg-tcl-crimson block"></span>
         14. Governing Law
       </h2>
       <p className="mb-4">
@@ -173,7 +173,7 @@ const TermsOfService = () => {
       </p>
 
       <h2 id="contact" className="font-barlow-condensed font-semibold text-[22px] text-tcl-navy uppercase tracking-wide mt-10 mb-4 flex items-center gap-3">
-        <span className="w-6 h-[2px] bg-tcl-gold block"></span>
+        <span className="w-6 h-[2px] bg-tcl-crimson block"></span>
         15. Contact Us
       </h2>
       <div className="bg-tcl-navy/5 p-5 rounded-lg border border-tcl-light-gray">

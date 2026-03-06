@@ -70,11 +70,11 @@ const ContactCore = () => {
                      viewport={{ once: true }}
                      className="flex items-start gap-5 group"
                   >
-                     <div className="w-12 h-12 rounded-xl bg-tcl-navy/10 flex items-center justify-center shrink-0 group-hover:bg-tcl-gold/15 transition-colors">
-                        <EnvelopeSimple weight="bold" size={24} className="text-tcl-navy" />
+                     <div className="w-12 h-12 rounded-xl bg-tcl-navy/10 flex items-center justify-center shrink-0 group-hover:bg-tcl-crimson/10 transition-colors">
+                        <EnvelopeSimple weight="bold" size={24} className="text-tcl-navy group-hover:text-tcl-crimson transition-colors" />
                      </div>
                      <div>
-                        <span className="block font-barlow-condensed font-semibold text-[12px] text-tcl-gold uppercase tracking-[0.1em] mb-1">Email</span>
+                        <span className="block font-barlow-condensed font-semibold text-[12px] text-tcl-crimson uppercase tracking-[0.1em] mb-1">Email</span>
                         <a href="mailto:info@texomacricket.com" className="block font-source-sans font-semibold text-[17px] text-tcl-navy hover:text-tcl-crimson hover:underline decoration-2 underline-offset-4 transition-colors mb-1">
                            info@texomacricket.com
                         </a>
@@ -90,11 +90,11 @@ const ContactCore = () => {
                      transition={{ delay: 0.1 }}
                      className="flex items-start gap-5 group"
                   >
-                     <div className="w-12 h-12 rounded-xl bg-tcl-navy/10 flex items-center justify-center shrink-0 group-hover:bg-tcl-gold/15 transition-colors">
-                        <Phone weight="bold" size={24} className="text-tcl-navy" />
+                     <div className="w-12 h-12 rounded-xl bg-tcl-navy/10 flex items-center justify-center shrink-0 group-hover:bg-tcl-crimson/10 transition-colors">
+                        <Phone weight="bold" size={24} className="text-tcl-navy group-hover:text-tcl-crimson transition-colors" />
                      </div>
                      <div>
-                        <span className="block font-barlow-condensed font-semibold text-[12px] text-tcl-gold uppercase tracking-[0.1em] mb-1">Phone</span>
+                        <span className="block font-barlow-condensed font-semibold text-[12px] text-tcl-crimson uppercase tracking-[0.1em] mb-1">Phone</span>
                         <a href="tel:469-246-7342" className="block font-source-sans font-semibold text-[17px] text-tcl-navy hover:text-tcl-crimson hover:underline decoration-2 underline-offset-4 transition-colors mb-1">
                            469-246-7342
                         </a>
@@ -110,11 +110,11 @@ const ContactCore = () => {
                      transition={{ delay: 0.2 }}
                      className="flex items-start gap-5 group"
                   >
-                     <div className="w-12 h-12 rounded-xl bg-tcl-navy/10 flex items-center justify-center shrink-0 group-hover:bg-tcl-gold/15 transition-colors">
-                        <MapPin weight="bold" size={24} className="text-tcl-navy" />
+                     <div className="w-12 h-12 rounded-xl bg-tcl-navy/10 flex items-center justify-center shrink-0 group-hover:bg-tcl-crimson/10 transition-colors">
+                        <MapPin weight="bold" size={24} className="text-tcl-navy group-hover:text-tcl-crimson transition-colors" />
                      </div>
                      <div>
-                        <span className="block font-barlow-condensed font-semibold text-[12px] text-tcl-gold uppercase tracking-[0.1em] mb-1">Visit Us</span>
+                        <span className="block font-barlow-condensed font-semibold text-[12px] text-tcl-crimson uppercase tracking-[0.1em] mb-1">Visit Us</span>
                         <span className="block font-source-sans font-semibold text-[17px] text-tcl-navy">Sports Texoma</span>
 
                         <a href="https://maps.google.com" target="_blank" rel="noreferrer" className="font-barlow-condensed font-medium text-[13px] text-tcl-crimson uppercase hover:underline">Get Directions →</a>
@@ -122,7 +122,7 @@ const ContactCore = () => {
                   </motion.div>
                </div>
 
-               <div className="w-full h-[1px] bg-tcl-gold/20 md:hidden"></div>
+               <div className="w-full h-[1px] bg-tcl-light-gray md:hidden"></div>
 
                {/* Location Preview */}
                <motion.div
@@ -136,7 +136,7 @@ const ContactCore = () => {
                      <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'radial-gradient(circle, transparent 20%, #0B2C4D 20%, #0B2C4D 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #0B2C4D 20%, #0B2C4D 80%, transparent 80%, transparent)', backgroundSize: '20px 20px, 30px 30px', backgroundPosition: '0 0, 15px 15px' }}></div>
 
                      <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
-                        <MapPin weight="bold" size={32} className="text-tcl-gold mb-2" />
+                        <MapPin weight="bold" size={32} className="text-tcl-crimson mb-2" />
                         <span className="font-barlow-condensed font-bold text-[14px] text-white uppercase tracking-wide">Sports Texoma</span>
                         <span className="font-source-sans text-[12px] text-white/60">Sports Texoma</span>
                      </div>
@@ -167,7 +167,7 @@ const ContactCore = () => {
                whileInView={{ opacity: 1, x: 0 }}
                viewport={{ once: true }}
                transition={{ delay: 0.2 }}
-               className="bg-white rounded-2xl border border-tcl-light-gray shadow-layered p-6 md:p-10 border-t-[3px] border-t-tcl-gold relative overflow-hidden"
+               className="bg-white rounded-2xl border border-tcl-light-gray shadow-layered p-6 md:p-10 border-t-[3px] border-t-tcl-crimson relative overflow-hidden"
             >
                <AnimatePresence mode='wait'>
                   {status === 'success' ? (
@@ -187,7 +187,7 @@ const ContactCore = () => {
                         </motion.div>
                         <h3 className="font-barlow-condensed font-bold text-[24px] text-tcl-navy uppercase mb-2">Message Sent!</h3>
                         <p className="font-source-sans text-[16px] text-[#555] max-w-xs mb-8">
-                           Thank you for reaching out. We'll get back to you within 24 hours.
+                           Thank you for reaching out. We&apos;ll get back to you within 24 hours.
                         </p>
                         <button
                            onClick={() => setStatus('idle')}
@@ -205,11 +205,11 @@ const ContactCore = () => {
                      >
                         <div className="flex items-center gap-4 mb-8">
                            <div className="w-[52px] h-[52px] rounded-xl bg-tcl-navy/10 flex items-center justify-center shrink-0">
-                              <PaperPlaneTilt weight="bold" size={28} className="text-tcl-gold -ml-0.5 mt-0.5" />
+                              <PaperPlaneTilt weight="bold" size={28} className="text-tcl-navy -ml-0.5 mt-0.5" />
                            </div>
                            <div>
                               <h2 className="font-barlow-condensed font-bold text-[20px] text-tcl-navy uppercase leading-none mb-1">Send Us A Message</h2>
-                              <p className="font-source-sans text-[15px] text-[#666]">Fill out the form below and we'll get back to you.</p>
+                              <p className="font-source-sans text-[15px] text-[#666]">Fill out the form below and we&apos;ll get back to you.</p>
                            </div>
                         </div>
 
@@ -228,7 +228,7 @@ const ContactCore = () => {
                                  className={`w-full rounded-xl border-[1.5px] bg-tcl-input-bg px-5 py-3.5 text-[16px] text-[#333] placeholder-[#BBB] font-source-sans transition-all duration-200 focus:outline-none focus:ring-[3px]
                               ${errors.name
                                        ? 'border-tcl-crimson focus:border-tcl-crimson focus:ring-tcl-crimson/10'
-                                       : 'border-tcl-light-gray focus:border-tcl-gold focus:ring-tcl-gold/10'}
+                                       : 'border-tcl-light-gray focus:border-tcl-crimson focus:ring-tcl-crimson/10'}
                            `}
                               />
                               {errors.name && (
@@ -253,7 +253,7 @@ const ContactCore = () => {
                                  className={`w-full rounded-xl border-[1.5px] bg-tcl-input-bg px-5 py-3.5 text-[16px] text-[#333] placeholder-[#BBB] font-source-sans transition-all duration-200 focus:outline-none focus:ring-[3px]
                               ${errors.email
                                        ? 'border-tcl-crimson focus:border-tcl-crimson focus:ring-tcl-crimson/10'
-                                       : 'border-tcl-light-gray focus:border-tcl-gold focus:ring-tcl-gold/10'}
+                                       : 'border-tcl-light-gray focus:border-tcl-crimson focus:ring-tcl-crimson/10'}
                            `}
                               />
                               {errors.email && (
@@ -275,13 +275,13 @@ const ContactCore = () => {
                                  value={formState.phone}
                                  onChange={handleChange}
                                  placeholder="Your phone number"
-                                 className="w-full rounded-xl border-[1.5px] border-tcl-light-gray bg-tcl-input-bg px-5 py-3.5 text-[16px] text-[#333] placeholder-[#BBB] font-source-sans transition-all duration-200 focus:border-tcl-gold focus:outline-none focus:ring-[3px] focus:ring-tcl-gold/10"
+                                 className="w-full rounded-xl border-[1.5px] border-tcl-light-gray bg-tcl-input-bg px-5 py-3.5 text-[16px] text-[#333] placeholder-[#BBB] font-source-sans transition-all duration-200 focus:border-tcl-crimson focus:outline-none focus:ring-[3px] focus:ring-tcl-crimson/10"
                               />
                            </div>
 
                            <div>
                               <label htmlFor="inquiryType" className="block font-source-sans font-semibold text-[14px] text-tcl-navy mb-2">
-                                 I'm reaching out as... <span className="text-tcl-crimson">*</span>
+                                 I&apos;m reaching out as... <span className="text-tcl-crimson">*</span>
                               </label>
                               <div className="relative">
                                  <select
@@ -293,7 +293,7 @@ const ContactCore = () => {
                                  ${!formState.inquiryType ? 'text-[#BBB]' : 'text-[#333]'}
                                  ${errors.inquiryType
                                           ? 'border-tcl-crimson focus:border-tcl-crimson focus:ring-tcl-crimson/10'
-                                          : 'border-tcl-light-gray focus:border-tcl-gold focus:ring-tcl-gold/10'}
+                                          : 'border-tcl-light-gray focus:border-tcl-crimson focus:ring-tcl-crimson/10'}
                               `}
                                  >
                                     <option value="" disabled>Select an option</option>
@@ -329,7 +329,7 @@ const ContactCore = () => {
                                  className={`w-full rounded-xl border-[1.5px] bg-tcl-input-bg px-5 py-3.5 text-[16px] text-[#333] placeholder-[#BBB] font-source-sans transition-all duration-200 focus:outline-none focus:ring-[3px] resize-y
                               ${errors.message
                                        ? 'border-tcl-crimson focus:border-tcl-crimson focus:ring-tcl-crimson/10'
-                                       : 'border-tcl-light-gray focus:border-tcl-gold focus:ring-tcl-gold/10'}
+                                       : 'border-tcl-light-gray focus:border-tcl-crimson focus:ring-tcl-crimson/10'}
                            `}
                               />
                               {errors.message && (
